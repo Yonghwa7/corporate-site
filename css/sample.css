@@ -1,5 +1,17 @@
 html {
   font-size: 62.5%; }
+  
+  #contents #sidebar .pc_sidemenu li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-image: url(../images/news/side_arrow.png);
+    background-size: 4px 8px;
+}
 
 header {
   background: #eaf2f4; }
@@ -248,6 +260,36 @@ h1 {
 
 /*# sourceMappingURL=sample.css.map */
 
+.fb_reset {
+    background: none;
+    border: 0;
+    border-spacing: 0;
+    color: #000;
+    cursor: auto;
+    direction: ltr;
+    font-family: "lucida grande", tahoma, verdana, arial, "hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
+
+header {
+    background: #eaf2f4;
+}
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
   #sub_cover {
       background-image: url(../images/news/sub_cover@2x.jpg);
@@ -297,18 +339,16 @@ h1 {
   }
 }
 
-@media (min-width: 550px)
+@media (min-width: 550px){
 #contents #main h2 {
     font-size: 2rem;
     padding-bottom: 20px;
-}
-
-#contents #main h2 {
     color: #42b9d0;
     border-bottom: 3px solid #42b9d0;
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 15px;
+}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)
@@ -342,9 +382,239 @@ h1 {
     display: block;
     font-weight: bold;
     margin-bottom: 3px;
-
+}
 ooter {
     background-color: #42b9d0;
     color: #fff;
     padding-top: 20px;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#contents #sidebar .pc_sidemenu li {
+    background-image: url(../images/news/side_arrow@2x.png);
+}
+
+#contents #sidebar .pc_sidemenu li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-size: 4px 8px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#sub_cover {
+    background-image: url(../images/news/sub_cover@2x.jpg);
+}
+}
+
+@media (min-width: 550px){
+#sub_cover {
+    padding: 80px 0;
+}
+}
+
+#sub_cover {
+    background-size: cover;
+}
+
+@media (min-width: 550px){
+#sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#sub_cover {
+    background-image: url(../images/news/sub_cover@2x.jpg);
+}
+}
+
+@media (min-width: 550px){
+#sub_cover {
+    padding: 80px 0;
+}
+}
+
+@media (min-width: 550px){
+#contents {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+}
+
+@media (min-width: 550px){
+footer {
+    padding-top: 30px;
+}
+}
+
+footer {
+    background-color: #42b9d0;
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+
+@media (min-width: 550px){
+header .sp_navi {
+    display: none;
+}
+}
+@media (min-width: 550px){
+header .pc_navi_li {
+    margin: 0;
+    padding: 0;
+}
+}
+@media (min-width: 550px){
+header .pc_navi_li li {
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 550px), (min-resolution: 2dppx) and (min-width: 550px){
+header .pc_navi_li li.navi_toppage a {
+    background-image: url(../images/top/navi_top@2x.png);
+}
+}
+
+@media (min-width: 550px){
+header .pc_navi_li li.navi_toppage a {
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 50px;
+    background-size: 40px 40px;
+}
+}
+
+@media (min-width: 550px){
+header .pc_navi_li li a {
+    color: #626262;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-size: 1.4rem;
+    float: left;
+    padding-right: 10px;
+}
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#contents #sidebar .pc_sidemenu li {
+    background-image: url(../images/news/side_arrow@2x.png);
+}
+}
+
+#contents #sidebar .pc_sidemenu li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-size: 4px 8px;
+}
+
+
+header {
+    background: #eaf2f4;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#sub_cover {
+    background-image: url(../images/news/sub_cover@2x.jpg);
+}
+}
+
+@media (min-width: 550px){
+#sub_cover {
+    padding: 80px 0;
+}
+}
+
+@media (min-width: 550px){
+#sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+}
+
+#contents #main h2.company_title {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 550px){
+#contents #main h2 {
+    font-size: 20px;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+}
+
+#contents #main th {
+    padding-right: 20px;
+}
+
+#contents #main th, #contents #main td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 1.4rem;
+}
+
+#contents #main th, #contents #main td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 1.4rem;
+}
+#contents #main h2 {
+    color: #42b9d0;
+    border-bottom: 3px solid #42b9d0;
+    font-weight: bold;
+}
+
+@media (min-width: 550px){
+#contents {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+}
+
+contents #sidebar .pc_sidemenu li a {
+    color: #339fd1;
+    text-decoration: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+#contents #sidebar .pc_sidemenu li {
+    background-image: url(../images/news/side_arrow@2x.png);
+}
+}
+
+div#main h2.company_title{
+  margin: 20px;
+  }
+
+
